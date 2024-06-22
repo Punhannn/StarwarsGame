@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.opsiy {
+    width: 100%;
+    height: 150vh;
+    background-image: url(./details/images/star-wars-place-ztno3exzqff0m0ci.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fightarea {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./details/images/fightarea.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3 {
+    color: saddlebrown;
+    font-size: 35px;
+}
+
+.firstline,
+.secondline,
+.thirdline {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.character {
+    width: 140px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    background-image: url(./details/images/character1.png);
+}
+
+.second {
+    background-image: url(./details/images/character2.png);
+}
+
+.third {
+    background-image: url(./details/images/character3update.png);
+}
+
+.fourth {
+    background-image: url(./details/images/character4.png);
+}
+
+.forfightbutton,
+.forbeatbutton {
+    display: flex;
+    justify-content: center;
+}
+
+.fighta,
+.beata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px dotted saddlebrown;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    color: saddlebrown;
+    font-size: 30px;
+    cursor: pointer;
+}
+.beata{
+    color: black;   
+    border: 10px dotted black;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.yoursoldier,
+.enemyssoldier {
+    display: none;
+    font-size: 25px;
+}
+.forsoldiers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.soldiersinfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 35px;
+    font-weight: 600;
+}
+.gostergeuser,.gostergeenemy{
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+}
+.uzlukuser,.uzlukenemy{
+    width: inherit;
+    height: inherit;
+    border: 1px solid black;
+     background-color: green;
+}
